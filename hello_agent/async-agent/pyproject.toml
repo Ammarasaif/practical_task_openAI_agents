@@ -1,0 +1,17 @@
+[project]
+name = "async-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Ammarasaif", email = "159964042+Ammarasaif@users.noreply.github.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+async-agent = "async_agent:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
